@@ -12,6 +12,11 @@ colorful theme inspired by [slack theme](https://github.com/slack-theme) and [Po
 
 ![js](https://raw.githubusercontent.com/Youzhigang/combine-color-theme-vscode/master/images/js.png)
 
+
+### TS
+
+![ts](https://raw.githubusercontent.com/Youzhigang/combine-color-theme-vscode/master/images/ts.png)
+
 ### JSX
 
 ![jsx](https://raw.githubusercontent.com/Youzhigang/combine-color-theme-vscode/master/images/jsx.png)
