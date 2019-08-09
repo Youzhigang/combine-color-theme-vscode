@@ -48,5 +48,4 @@ colorful theme inspired by [slack theme](https://github.com/slack-theme) and [Po
 ```
 
 ## github repo
-
-contact me. https://github.com/hedinne/popping-and-locking-vscode
+[contact me](https://github.com/Youzhigang/combine-color-theme-vscode)
