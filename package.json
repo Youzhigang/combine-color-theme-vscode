@@ -2,7 +2,7 @@
     "name": "combine-color-theme",
     "displayName": "combine-color-theme",
     "description": "vscode theme inspired by others",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.30.0"
     },
