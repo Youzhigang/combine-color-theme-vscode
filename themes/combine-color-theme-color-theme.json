@@ -1,59 +1,64 @@
 {
-	"name": "combine-color-theme",
-	"type": "dark",
-	"colors": {
-		"activityBarBadge.background": "#1D978D",
-		"editor.background": "#222222",
-		"editor.foreground": "#E6E6E6",
-		"editor.inactiveSelectionBackground": "#3a3d41",
-		"editor.selectionHighlightBackground": "#add6ff26",
-		"editorIndentGuide.activeBackground": "#707070",
-		"editorIndentGuide.background": "#404040",
-		"input.placeholderForeground": "#7A7A7A",
-		"list.dropBackground": "#383b3d",
-		"list.activeSelectionBackground": "#222222",
-		"list.focusBackground": "#0077B5",
-		"menu.background": "#252526",
-		"menu.foreground": "#E6E6E6",
-		"settings.numberInputBackground": "#292929",
-		"settings.textInputBackground": "#292929",
-		"sideBarTitle.foreground": "#E6E6E6",
-		"statusBar.background": "#222222",
-		"statusBar.noFolderBackground": "#141414",
-		"statusBar.debuggingBackground": "#1D978D",
-		"list.hoverBackground": "#222222",
-		"gitDecoration.addedResourceForeground": "#FFF",
-		"gitDecoration.conflictingResourceForeground": "#FFF",
-		"gitDecoration.deletedResourceForeground": "#FFF",
-		"gitDecoration.ignoredResourceForeground": "#FFF",
-		"gitDecoration.modifiedResourceForeground": "#FFF",
-		"gitDecoration.submoduleResourceForeground": "#FFF",
-		"gitDecoration.untrackedResourceForeground": "#FFF",
-		"editor.lineHighlightBorder": "#141414",
-		"editor.lineHighlightBackground": "#141414",
-		"editorSuggestWidget.selectedBackground": "#0077B5",
-		"sideBarSectionHeader.background": "#222222",
-		"activityBar.background": "#222222",
-		"button.background": "#0077B5",
-		"button.foreground": "#FFF",
-		"button.hoverBackground": "#005076",
-		"extensionButton.prominentBackground": "#0077B5",
-		"extensionButton.prominentForeground": "#FFF",
-		"extensionButton.prominentHoverBackground": "#005076",
-		"debugExceptionWidget.background": "#141414",
-		"debugExceptionWidget.border": "#FFF",
-		"debugToolBar.background": "#141414",
-		"titleBar.activeBackground": "#222222",
-		"titleBar.activeForeground": "#E6E6E6",
-		"titleBar.inactiveBackground": "#222222",
-		"titleBar.inactiveForeground": "#7A7A7A",
-		"focusBorder": "#0077B5",
-		"textLink.activeForeground": "#0077B5",
-		"textLink.foreground": "#0077B5",
-		"editorLink.activeForeground": "#0077B5",
-		"notificationLink.foreground": "#0077B5",
-	},
-	"tokenColors": [
+  "name": "combine-color-theme",
+  "type": "dark",
+  "colors": {
+    "activityBarBadge.background": "#1D978D",
+    "editor.background": "#222222",
+    "editor.foreground": "#E6E6E6",
+    "editor.inactiveSelectionBackground": "#3a3d41",
+    "editor.selectionHighlightBackground": "#add6ff26",
+    "editorIndentGuide.activeBackground": "#707070",
+    "editorIndentGuide.background": "#404040",
+    "input.placeholderForeground": "#7A7A7A",
+    "list.dropBackground": "#383b3d",
+    "list.activeSelectionBackground": "#222222",
+    "list.focusBackground": "#0077B5",
+    "menu.background": "#252526",
+    "menu.foreground": "#E6E6E6",
+    "settings.numberInputBackground": "#292929",
+    "settings.textInputBackground": "#292929",
+    "sideBarTitle.foreground": "#E6E6E6",
+    "statusBar.background": "#222222",
+    "statusBar.noFolderBackground": "#141414",
+    "statusBar.debuggingBackground": "#1D978D",
+    "list.hoverBackground": "#222222",
+    "gitDecoration.addedResourceForeground": "#FFF",
+    "gitDecoration.conflictingResourceForeground": "#FFF",
+    "gitDecoration.deletedResourceForeground": "#FFF",
+    "gitDecoration.ignoredResourceForeground": "#FFF",
+    "gitDecoration.modifiedResourceForeground": "#FFF",
+    "gitDecoration.submoduleResourceForeground": "#FFF",
+    "gitDecoration.untrackedResourceForeground": "#FFF",
+    "editor.lineHighlightBorder": "#141414",
+    "editor.lineHighlightBackground": "#141414",
+    "editorSuggestWidget.selectedBackground": "#0077B5",
+    "sideBarSectionHeader.background": "#222222",
+    "activityBar.background": "#222222",
+    "button.background": "#0077B5",
+    "button.foreground": "#FFF",
+    "button.hoverBackground": "#005076",
+    "extensionButton.prominentBackground": "#0077B5",
+    "extensionButton.prominentForeground": "#FFF",
+    "extensionButton.prominentHoverBackground": "#005076",
+    "debugExceptionWidget.background": "#141414",
+    "debugExceptionWidget.border": "#FFF",
+    "debugToolBar.background": "#141414",
+    "titleBar.activeBackground": "#222222",
+    "titleBar.activeForeground": "#E6E6E6",
+    "titleBar.inactiveBackground": "#222222",
+    "titleBar.inactiveForeground": "#7A7A7A",
+    "focusBorder": "#0077B5",
+    "textLink.activeForeground": "#0077B5",
+    "textLink.foreground": "#0077B5",
+    "editorLink.activeForeground": "#0077B5",
+    "notificationLink.foreground": "#0077B5",
+    "tab.inactiveBackground": "#283741",
+    "sideBar.background": "#283741",
+    "tree.indentGuidesStroke": "#555",
+    "list.inactiveSelectionBackground": "#000",
+    "list.inactiveSelectionForeground": "#fff",
+  },
+  "tokenColors": [
     {
       "scope": "emphasis",
       "settings": {
@@ -74,14 +79,20 @@
     },
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#506899",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["constant", "variable.arguments"],
+      "scope": [
+        "constant",
+        "variable.arguments"
+      ],
       "settings": {
         "foreground": "#d3869b"
       }
@@ -412,7 +423,9 @@
     },
     {
       "name": "Variable names that are specified by the language",
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#d3869b",
         "fontStyle": "italic"
@@ -486,20 +499,28 @@
     },
     {
       "name": "CSS propperty value",
-      "scope": ["meta.property-group", "support.constant.property-value.css"],
+      "scope": [
+        "meta.property-group",
+        "support.constant.property-value.css"
+      ],
       "settings": {
         "foreground": "#b8bb26"
       }
     },
     {
       "name": "HTML and JSX Tags",
-      "scope": ["entity.name.tag", "punctuation.tag"],
+      "scope": [
+        "entity.name.tag",
+        "punctuation.tag"
+      ],
       "settings": {
         "foreground": "#fabd2f"
       }
     },
     {
-      "scope": ["punctuation"],
+      "scope": [
+        "punctuation"
+      ],
       "settings": {
         "foreground": "#ebdbb2"
       }
