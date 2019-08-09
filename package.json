@@ -17,5 +17,10 @@
                 "path": "./themes/combine-color-theme-color-theme.json"
             }
         ]
+    },
+    "publisher": "ethanyou",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Youzhigang/combine-color-theme-vscode"
     }
 }
